@@ -43,11 +43,11 @@ export default function Home() {
   if (!mounted) return null;
 
   return (
-    <main className="min-h-screen bg-[#FAF8F5] overflow-x-hidden">
+    <main className="min-h-screen bg-[#FAF8F5] overflow-x-hidden w-full max-w-[100vw]">
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center px-6 py-20 relative overflow-hidden">
-        <div className="absolute top-20 right-10 w-64 h-64 bg-[#B8A896]/20 rounded-full blur-3xl animate-pulse-slow" />
-        <div className="absolute bottom-20 left-10 w-80 h-80 bg-[#A69076]/10 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: "2s" }} />
+        <div className="absolute top-20 right-0 w-64 h-64 bg-[#B8A896]/20 rounded-full blur-3xl animate-pulse-slow pointer-events-none" />
+        <div className="absolute bottom-20 left-0 w-64 h-64 bg-[#A69076]/10 rounded-full blur-3xl animate-pulse-slow pointer-events-none" style={{ animationDelay: "2s" }} />
 
         <div className="relative z-10 max-w-3xl mx-auto text-center">
           <p
@@ -90,7 +90,7 @@ export default function Home() {
       </section>
 
       {/* Why This Exists Section - Diagonal */}
-      <section className="relative py-32 px-6">
+      <section className="relative py-32 px-6 overflow-hidden">
         <div className="absolute inset-0 bg-[#B8A896] diagonal-top-bottom" />
         <div className="relative z-10 max-w-2xl mx-auto text-center animate-on-scroll">
           <p className="text-[#5C4A3A] text-xs tracking-[0.3em] uppercase mb-6">
@@ -198,7 +198,7 @@ export default function Home() {
       </section>
 
       {/* Photo Grid - Memories - Diagonal */}
-      <section className="relative py-24 px-6">
+      <section className="relative py-24 px-6 overflow-hidden">
         <div className="absolute inset-0 bg-[#E8DFD5] diagonal-bottom-top" />
         <div className="relative z-10 max-w-6xl mx-auto">
           <p className="text-center text-[#8B7355] text-xs tracking-[0.3em] uppercase mb-12 animate-on-scroll">
@@ -256,7 +256,7 @@ export default function Home() {
       </section>
 
       {/* Featured Photo - Us Together - Diagonal */}
-      <section className="relative py-24 px-6">
+      <section className="relative py-24 px-6 overflow-hidden">
         <div className="absolute inset-0 bg-[#A89580] diagonal-top-bottom" />
         <div className="relative z-10 max-w-4xl mx-auto animate-on-scroll">
           <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -368,7 +368,7 @@ export default function Home() {
       </section>
 
       {/* Wishes Section - Diagonal */}
-      <section className="relative py-24 px-6">
+      <section className="relative py-24 px-6 overflow-hidden">
         <div className="absolute inset-0 bg-[#E8DFD5] diagonal-bottom-top" />
         <div className="relative z-10 max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-light text-[#5C4A3A] mb-12 text-center animate-on-scroll">
@@ -417,7 +417,7 @@ export default function Home() {
       </section>
 
       {/* Closing Section - Diagonal */}
-      <section className="relative py-32 px-6">
+      <section className="relative py-32 px-6 overflow-hidden">
         <div className="absolute inset-0 bg-[#A89580] diagonal-top-bottom" />
         <div className="relative z-10 max-w-2xl mx-auto text-center animate-on-scroll">
           <p className="text-[#3D322A] text-lg md:text-xl leading-loose mb-8">
