@@ -134,3 +134,40 @@ html, body {
     transform: translateY(0);
   }
 }
+
+/* Mobile-friendly image animations (no hover needed) */
+@-webkit-keyframes subtleZoom {
+  0%, 100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+  }
+}
+
+@keyframes subtleZoom {
+  0%, 100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+  }
+}
+
+/* Apply subtle zoom animation on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .image-animate {
+    -webkit-animation: subtleZoom 6s ease-in-out infinite;
+    animation: subtleZoom 6s ease-in-out infinite;
+  }
+
+  .image-animate:nth-child(2) { animation-delay: 1s; }
+  .image-animate:nth-child(3) { animation-delay: 2s; }
+  .image-animate:nth-child(4) { animation-delay: 3s; }
+  .image-animate:nth-child(5) { animation-delay: 4s; }
+  .image-animate:nth-child(6) { animation-delay: 5s; }
+}

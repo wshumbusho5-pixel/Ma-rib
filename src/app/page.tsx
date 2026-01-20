@@ -148,7 +148,7 @@ export default function Home() {
                 src="/IMG_5679.jpg"
                 alt="Keza"
                 fill
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
+                className="object-cover transition-transform duration-700 group-hover:scale-105 image-animate"
                 priority
               />
             </div>
@@ -206,22 +206,22 @@ export default function Home() {
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
             <div className="aspect-square rounded-xl overflow-hidden relative group animate-on-scroll shadow-lg">
-              <Image src="/IMG_5675.jpg" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/IMG_5675.jpg" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110 image-animate" />
             </div>
             <div className="aspect-square rounded-xl overflow-hidden relative group animate-on-scroll shadow-lg" style={{ transitionDelay: "0.1s" }}>
-              <Image src="/IMG_5336.jpg" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/IMG_5336.jpg" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110 image-animate" />
             </div>
             <div className="aspect-square rounded-xl overflow-hidden relative group animate-on-scroll shadow-lg" style={{ transitionDelay: "0.2s" }}>
-              <Image src="/IMG_5339.jpg" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/IMG_5339.jpg" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110 image-animate" />
             </div>
             <div className="aspect-square rounded-xl overflow-hidden relative group animate-on-scroll shadow-lg" style={{ transitionDelay: "0.3s" }}>
-              <Image src="/IMG_5066.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/IMG_5066.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110 image-animate" />
             </div>
             <div className="aspect-square rounded-xl overflow-hidden relative group animate-on-scroll shadow-lg" style={{ transitionDelay: "0.4s" }}>
-              <Image src="/IMG_5068.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/IMG_5068.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110 image-animate" />
             </div>
             <div className="aspect-square rounded-xl overflow-hidden relative group animate-on-scroll shadow-lg" style={{ transitionDelay: "0.5s" }}>
-              <Image src="/IMG_5069.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/IMG_5069.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110 image-animate" />
             </div>
           </div>
         </div>
@@ -261,7 +261,7 @@ export default function Home() {
         <div className="relative z-10 max-w-4xl mx-auto animate-on-scroll">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden relative order-2 md:order-1 group shadow-2xl">
-              <Image src="/IMG_5742.JPG" alt="Us together" fill className="object-cover transition-transform duration-700 group-hover:scale-105" />
+              <Image src="/IMG_5742.JPG" alt="Us together" fill className="object-cover transition-transform duration-700 group-hover:scale-105 image-animate" />
             </div>
             <div className="text-[#2C241C] order-1 md:order-2">
               <p className="text-[#4A3D32] text-xs tracking-[0.3em] uppercase mb-4">
@@ -340,28 +340,28 @@ export default function Home() {
             style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
           >
             <div className="flex-shrink-0 w-64 md:w-80 aspect-[3/4] rounded-xl overflow-hidden relative group snap-start shadow-lg">
-              <Image src="/IMG_5773.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/IMG_5773.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110 image-animate" />
             </div>
             <div className="flex-shrink-0 w-64 md:w-80 aspect-[3/4] rounded-xl overflow-hidden relative group snap-start shadow-lg">
-              <Image src="/IMG_5779.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/IMG_5779.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110 image-animate" />
             </div>
             <div className="flex-shrink-0 w-64 md:w-80 aspect-[3/4] rounded-xl overflow-hidden relative group snap-start shadow-lg">
-              <Image src="/IMG_5095.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/IMG_5095.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110 image-animate" />
             </div>
             <div className="flex-shrink-0 w-64 md:w-80 aspect-[3/4] rounded-xl overflow-hidden relative group snap-start shadow-lg">
-              <Image src="/IMG_5138.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/IMG_5138.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110 image-animate" />
             </div>
             <div className="flex-shrink-0 w-64 md:w-80 aspect-[3/4] rounded-xl overflow-hidden relative group snap-start shadow-lg">
-              <Image src="/IMG_5739.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/IMG_5739.JPG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110 image-animate" />
             </div>
             <div className="flex-shrink-0 w-64 md:w-80 aspect-[3/4] rounded-xl overflow-hidden relative group snap-start shadow-lg">
-              <Image src="/IMG_4848.jpeg" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/IMG_4848.jpeg" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110 image-animate" />
             </div>
             <div className="flex-shrink-0 w-64 md:w-80 aspect-[3/4] rounded-xl overflow-hidden relative group snap-start shadow-lg">
-              <Image src="/6B83AA60-10B9-43B8-A932-2E3B93310CDE.PNG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/6B83AA60-10B9-43B8-A932-2E3B93310CDE.PNG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110 image-animate" />
             </div>
             <div className="flex-shrink-0 w-64 md:w-80 aspect-[3/4] rounded-xl overflow-hidden relative group snap-start shadow-lg">
-              <Image src="/E741BA4E-FC33-48E0-B0D7-2C4826B4DBC7.PNG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/E741BA4E-FC33-48E0-B0D7-2C4826B4DBC7.PNG" alt="Keza" fill className="object-cover transition-transform duration-500 group-hover:scale-110 image-animate" />
             </div>
           </div>
         </div>
